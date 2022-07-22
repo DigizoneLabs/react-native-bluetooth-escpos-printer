@@ -507,3 +507,11 @@ await BluetoothEscposPrinter.printerAlign(BluetoothEscposPrinter.ALIGN.LEFT);
 ```javascript
 BluetoothEscposPrinter.opendDrawer(0, 250, 250);
 ```
+
+
+
+# Keeping this fork updated with upstream
+git checkout master
+git fetch upstream
+git rebase upstream/master
+git push -f origin master
