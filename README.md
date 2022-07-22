@@ -511,7 +511,12 @@ BluetoothEscposPrinter.opendDrawer(0, 250, 250);
 
 
 # Keeping this fork updated with upstream
+```bash
 git checkout master
+
 git fetch upstream
+
 git rebase upstream/master
+
 git push -f origin master
+```
